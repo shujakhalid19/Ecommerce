@@ -1,3 +1,4 @@
+//initial flow
 import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
 import {Platform, SafeAreaView, View, Text, ScrollView, Image, TextInput, StyleSheet} from 'react-native';
