@@ -1,14 +1,15 @@
 import * as firebase from 'firebase';
+import { ApiKey,AuthDomain,ProjectId,StorageBucket,MessagingSenderId,AppId,MeasurementId } from 'react-native-dotenv';
 import firestore from 'firebase/firestore';
 
 const firebaseConfig = {
-	apiKey: "AIzaSyD5L6Lrjsjvh1nx2zn-vgMMH_phht6h7X8",
-	authDomain: "ecommerce-fa598.firebaseapp.com",
-	projectId: "ecommerce-fa598",
-	storageBucket: "ecommerce-fa598.appspot.com",
-	messagingSenderId: "1087314122312",
-	appId: "1:1087314122312:web:d1807b9b3ad3b06b0aea7d",
-	measurementId: "G-QHQ4PL8NV0"
+	apiKey:ApiKey,
+	authDomain:AuthDomain,
+	projectId:ProjectId,
+	storageBucket:StorageBucket,
+	messagingSenderId:MessagingSenderId,
+	appId:AppId,
+	measurementId:MeasurementId,
   };
 
 firebase.initializeApp(firebaseConfig);
