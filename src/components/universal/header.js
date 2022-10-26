@@ -1,12 +1,14 @@
 import React from "react";
-import {View,Text,TextInput} from 'react-native'
+import {Dimensions,View,Text,TextInput} from 'react-native'
 import Icon from '@expo/vector-icons/Ionicons'
 import s from '../../../styles/mainStyle';
+
+const {width,height}=Dimensions.get('window');
 
 export default function Header(props){
     return(
         <View style={[s.row,s.rowflStart,s.pdlt10,s.mgbt20,s.pdtp10,s.pdbt10]}>
-			<View style={[s.fl3,{backgroundColor:'#FFF',borderWidth:1,borderColor:"#d4d4d4",borderRadius:14,height:40}]}>
+			<View style={[{width:width/1.2,backgroundColor:'#FFF',borderWidth:1,borderColor:"#d4d4d4",borderRadius:14,height:40}]}>
 				<View style={[s.row,s.pd10]}>
 					<Text>
                         <Icon name="ios-search-outline" size={18}/>
