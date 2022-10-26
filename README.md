@@ -11,6 +11,5 @@ A simple ecommerce app designed using react native.This example was put together
   <img src="./examples/attachments/3.jpg" width="30%" height="60%" style="margin:10px 100px 10px 0px" title="Messages">
   <img src="./examples/attachments/4.jpg" width="30%" height="60%" style="margin:10px 100px 10px 0px" title="Messages">
   <img src="./examples/attachments/5.jpg" width="30%" height="60%" style="margin:10px 100px 10px 0px" title="Messages">
-  <img src="./examples/attachments/5.jpg" width="30%" height="60%" style="margin:10px 100px 10px 0px" title="Messages">
   <img src="./examples/attachments/6.jpg" width="30%" height="60%" style="margin:10px 100px 10px 0px" title="Messages">
 </p>
